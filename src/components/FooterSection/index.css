@@ -1,0 +1,29 @@
+.about-company {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+.contact-icon-and-detail {
+  display: flex;
+  flex-direction: row;
+}
+.services-container {
+  display: flex;
+  flex-direction: column;
+}
+.footer-main-container {
+  padding: 80px 20px 80px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff0f5;
+}
+.service-hover {
+  color: #212529;
+}
+.service-hover:hover {
+  color: red;
+}

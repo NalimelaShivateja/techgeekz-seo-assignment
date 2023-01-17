@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.service-section-main-container {
+  padding: 120px 10px 100px 10px;
+  text-align: center;
+  background-color: rgb(255, 248, 248);
+}
+
+.sectionHeading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+.servicesList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.servicesListItems {
+  width: 400px;
+  text-align: center;
+  margin: 10px;
+  transition: transform 0.2s;
+  border-bottom: 4px solid red;
+}
+.servicesListItems:hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+
+.service-hover-0:hover {
+  background-color: #ffe0fd;
+}
+.service-hover-1:hover {
+  background-color: #e2e0ff;
+}
+.service-hover-2:hover {
+  background-color: #e0fffc;
+}
+.service-hover-3:hover {
+  background-color: #e8ffe0;
+}
+.service-hover-4:hover {
+  background-color: #fffee0;
+}
+.service-hover-5:hover {
+  background-color: #ffece1;
+}
+
+.serviceName {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+.serviceDescription {
+  font-family: roboto;
+  font-size: 16px;
+}
+.know-more {
+  color: #e12f47;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.know-more:hover {
+  color: red;
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .sectionHeading {
+    font-size: 30px;
+  }
+  .serviceDescription {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,55 @@
+.user-details-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.user-details-inputs {
+  margin: 5px;
+  width: 100%;
+}
+.payment-button {
+  margin: 5px;
+}
+.payment-heading-and-image {
+  display: flex;
+  flex-direction: column;
+}
+.heading-and-forms {
+  padding: 120px 10px 80px 10px;
+}
+.payment-container-and-details-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.credit-card-logos-image {
+  height: 40px;
+  width: 250px;
+  margin: 5px;
+}
+.plan-details-container {
+  padding: 30px 10px 30px 0;
+  order: 1;
+}
+.details-form {
+  /* border: 2px solid black; */
+  flex-grow: 0.5;
+  order: 0;
+}
+
+@media (max-width: 991px) {
+  .payment-container-and-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .details-form {
+    flex-grow: 0.5;
+    order: 1;
+    margin: 30px;
+  }
+  .plan-details-container {
+    order: 0;
+  }
+}
